@@ -27,17 +27,28 @@ myNumbers = [30, 40, 50, 60, 70]
 
 myNumbers.append(80)
 
-print(myNumbers)
+# print(myNumbers)
 
 toClear = [10, 20, 30, 40]
 #clears the items in a list
 toClear.clear()
 
-print(toClear)
+# print(toClear)
 
 numbers = [1,2,3,4,5,6]
+#returns the index of the item
+# print(numbers.index(3))
 
-print(numbers.index(3))
+# seconds = [1.2323442655, 1.4534345567, 1.023458894]
+# current = 1.10001399445
+#appends current to end of seconds
+# seconds.append(current)
+
+# print(seconds)
+
+#remove 1.4534345567 from list
+seconds = [1.2323442655, 1.4534345567, 1.023458894, 1.10001399445]
+
 
 
 

@@ -6,8 +6,10 @@ compare = datacompy.Compare(
     df1,
     df2,
 
-    join_columns='first_name', 'cow',
+    join_columns='first_name', 
+    'cow',
     abs_tol=0.0001,
     rel_tol=0,
-)
+    df1_name='original',
+    df2_name='new')
 print(compare.report())

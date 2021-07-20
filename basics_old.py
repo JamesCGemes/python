@@ -49,6 +49,21 @@ numbers = [1,2,3,4,5,6]
 #remove 1.4534345567 from list
 seconds = [1.2323442655, 1.4534345567, 1.023458894, 1.10001399445]
 
+monday_temperatures = [9.1, 8.8, 7.5]
+
+monday_temperatures.append(8.5)
+
+workdays = ["Mon", "Tue", "Wed", "Thu", "Fri"]
+weekend = ["Sat", "Sun"]
+#append the first place of weekend to workdays
+workdays.append(weekend[0])
+
+print(workdays)
+
+#get the first two index of workdays. 0:2 
+print(workdays[0:3])
+
+
 
 
 

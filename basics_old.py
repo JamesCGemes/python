@@ -69,6 +69,19 @@ workdays[-2:]
 #get first and second items. remeber that with a slice the upper limit will show the one below it.
 workdays[-5:-3]
 
+#print last three of letters list
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(letters[-3:])
+
+#print 2nd to 4th
+print(letters[-6:-3])
+
+#print the first three.
+print(letters[:3])
+
+
+
+
 
 
 

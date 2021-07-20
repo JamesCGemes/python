@@ -13,3 +13,18 @@ def mean(mylist):
 
     
 print(mean([1,4,5]))    
+
+
+#function that calculates area of a square with even sides
+def area_of_square(l):
+    area_of = l * l
+    return area_of
+
+
+    
+def f_to_m(input):
+    milli = 29.57353
+    convert_to = input * milli
+    return convert_to   
+
+print(f_to_m(5))    

@@ -61,7 +61,7 @@ workdays.append(weekend[0])
 print(workdays)
 
 #get the first two index of workdays. 0:2 
-print(workdays[0:3])
+print(workdays[0:2])
 
 
 

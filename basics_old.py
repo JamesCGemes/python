@@ -63,7 +63,11 @@ print(workdays)
 #get the first two index of workdays. 0:2 
 print(workdays[0:2])
 
+#get last two items of list using negative slice
+workdays[-2:]
 
+#get first and second items. remeber that with a slice the upper limit will show the one below it.
+workdays[-5:-3]
 
 
 

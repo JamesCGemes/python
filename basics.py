@@ -75,5 +75,13 @@ def which_temp(input):
 #print(which_temp(-5))            
 
 #take user input for which_temp
-user_input = float(input("Please enter the temperature:"))
-print(which_temp(user_input))
+#user_input = float(input("Please enter the temperature:"))
+#print(which_temp(user_input))
+
+#take user input of name and return a hello + name
+user_name = input("Whats your name?")
+#below works in python 2 and 3
+message = "Hello %s!" % user_name
+#below works in python 3.6 and up.
+new_message = f"Hello {user_name}!"
+print(new_message)

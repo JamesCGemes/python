@@ -86,18 +86,19 @@ def which_temp(input):
 #new_message = f"Hello {user_name}!"
 #print(new_message)
 
-name = input("Enter your name: ")
-surname = input("Enter your surname: ")
+# name = input("Enter your name: ")
+# surname = input("Enter your surname: ")
 
 #message_03 = "Hello %s %s!" % (name, surname)
 
-message_04 = f"Hello {name} {surname}"
+# message_04 = f"Hello {name} {surname}"
 
 #print(message_03)
-print(message_04)
+# print(message_04)
 
-if name == "james" and surname == "gemes":
-    print( "your awesome!")
+# if name == "james" and surname == "gemes":
+#     print( "your awesome!")
 
 
-
+def say_hi(i):
+    return "Hi %s" % i

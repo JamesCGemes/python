@@ -100,5 +100,11 @@ def which_temp(input):
 #     print( "your awesome!")
 
 
-def say_hi(i):
-    return "Hi %s" % i
+# def say_hi(i):
+#     return "Hi %s" % i
+
+def say_hello(i):
+    return "Hi %s" % i.title()
+
+
+print(say_hello("james"))

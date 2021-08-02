@@ -187,3 +187,38 @@ def more_than_zero(lst):
 
 def zeros(lst):
     return [i in lst if not isinstance(i, str) else 0 for i in lst ]
+
+
+#returns string as float and sums them
+
+
+
+def together(a,b):
+    return a + b
+
+
+#takes as many arguments as needed and returns the mean
+def mean(*args):
+        return sum(args) / len(args)
+
+
+print(mean(10,20,30,40))    
+
+
+
+def strings_to_upper(*args):
+    args = [i.upper() for i in args]
+    return sorted(args)
+
+
+print(strings_to_upper("a", "cow", "bat"))    
+
+
+def address(**kwargs):
+    return kwargs
+
+print(address(james = "2510 lovetree", lee = "arkansas"))    
+
+
+
+

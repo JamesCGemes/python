@@ -142,9 +142,25 @@ studentGrades = {"James" : 80.0, "Cassie" : 95.5, "Lee" :100}
     
 phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
 
-for persons_name, persons_number in phone_numbers.items():
-    print("{}: {}" .format(persons_name, persons_number))
+# for persons_name, persons_number in phone_numbers.items():
+#     print("{}: {}" .format(persons_name, persons_number))
 
 
-for persons_number in phone_numbers.values():
-    print(persons_number.replace("+", "00"))
+# for persons_number in phone_numbers.values():
+#     print(persons_number.replace("+", "00"))
+
+
+# a = 0
+# while a < 5:
+#     a = a + 1
+#     print(a)    
+
+
+while True:
+    username = input("Please enter your username:")
+    if username == 'James':
+        break
+    else:
+        print("Sorry wrong name try again")
+        continue
+

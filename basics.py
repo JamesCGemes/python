@@ -103,8 +103,13 @@ def which_temp(input):
 # def say_hi(i):
 #     return "Hi %s" % i
 
-def say_hello(i):
-    return "Hi %s" % i.title()
+# def say_hello(i):
+#     return "Hi %s" % i.title()
 
 
-print(say_hello("james"))
+# print(say_hello("james"))
+
+monday_temps = [9.1, 8.8, 7.6]
+
+for temp in monday_temps:
+    print(round(temp))

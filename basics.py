@@ -30,7 +30,7 @@ def f_to_m(input):
 #print(f_to_m(5))    
 
 
-studentGrades = {"James" : 80.0, "Cassie" : 95.5, "Lee" :100}
+# studentGrades = {"James" : 80.0, "Cassie" : 95.5, "Lee" :100}
 
 #below will take a list or dict
 def mean(value):
@@ -109,7 +109,31 @@ def which_temp(input):
 
 # print(say_hello("james"))
 
-monday_temps = [9.1, 8.8, 7.6]
+# monday_temps = [9.1, 8.8, 7.6]
 
-for temp in monday_temps:
-    print(round(temp))
+# for temp in monday_temps:
+#     print(round(temp))
+
+colors = [11, 34, 98, 43, 45, 54, 54.3]
+#loops throug color and prints only if over 50
+# for color in colors:
+#     if color > 50:
+#         print(color)
+
+# for color in colors:
+#     if type(color) == int and color > 50:
+#         print(color)
+
+studentGrades = {"James" : 80.0, "Cassie" : 95.5, "Lee" :100}
+# itterate through a dictionary
+for grade in studentGrades.items():
+    print(grade)
+
+for grades in studentGrades.values():
+    print(grades)
+
+for grades in studentGrades.keys():
+    print(grades)
+
+for key, value in studentGrades.items():
+    print("{} has a grade of {}" .format(key, value))

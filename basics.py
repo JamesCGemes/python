@@ -156,11 +156,34 @@ phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
 #     print(a)    
 
 
-while True:
-    username = input("Please enter your username:")
-    if username == 'James':
-        break
-    else:
-        print("Sorry wrong name try again")
-        continue
+# while True:
+#     username = input("Please enter your username:")
+#     if username == 'James':
+#         break
+#     else:
+#         print("Sorry wrong name try again")
+#         continue
 
+
+temps = [221, 234, 430, 230]
+
+#easier version of a for loop for new list.
+new_temps = [temp / 10 for temp in temps]
+
+#if you need to use an if else in a list comprehension the "for" "in" portion goes after the if else.
+new_temps = [temp / 10 if temp != -9999 else 0 for temp in temps]
+
+# print(new_temps)
+
+def only_integers(lst):
+    return [i for i in lst if isinstance(i, int)]
+
+# print(only_integers([1,2,3,"cow"]))
+
+def more_than_zero(lst):
+    return [i for i in lst if i > 0]
+
+# print(more_than_zero[1,-0,100,-50])    
+
+def zeros(lst):
+    return [i in lst if not isinstance(i, str) else 0 for i in lst ]

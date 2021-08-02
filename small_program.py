@@ -18,4 +18,4 @@ while True:
     else:
         results.append(sentence_maker(user_input))
 
-print(" ".join(results))
+# print(" ".join(results))

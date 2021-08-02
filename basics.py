@@ -126,14 +126,25 @@ colors = [11, 34, 98, 43, 45, 54, 54.3]
 
 studentGrades = {"James" : 80.0, "Cassie" : 95.5, "Lee" :100}
 # itterate through a dictionary
-for grade in studentGrades.items():
-    print(grade)
+# for grade in studentGrades.items():
+#     print(grade)
 
-for grades in studentGrades.values():
-    print(grades)
+# for grades in studentGrades.values():
+#     print(grades)
 
-for grades in studentGrades.keys():
-    print(grades)
+# for grades in studentGrades.keys():
+#     print(grades)
 
-for key, value in studentGrades.items():
-    print("{} has a grade of {}" .format(key, value))
+# for key, value in studentGrades.items():
+#     print("{} has a grade of {}" .format(key, value))
+
+
+    
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+
+for persons_name, persons_number in phone_numbers.items():
+    print("{}: {}" .format(persons_name, persons_number))
+
+
+for persons_number in phone_numbers.values():
+    print(persons_number.replace("+", "00"))

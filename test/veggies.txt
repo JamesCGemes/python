@@ -1,5 +1,2 @@
-Cucumbers
-Squash
-Green beans
-Corn
-Potatoes
+tomato
+cucumber

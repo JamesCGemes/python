@@ -1,5 +1,4 @@
-tomato
-cucumberBanana
+Banana
 Orange
 Apple
 Grapes

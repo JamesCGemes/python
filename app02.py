@@ -9,7 +9,12 @@ con = mysql.connector.connect(
 
 cursor = con.cursor()
 
-query = cursor.execute("SELECT * FROM Dictionary")
+query = cursor.execute("SELECT * FROM Dictionary WHERE Expression = 'inlay' ")
 results = cursor.fetchall()
 
-print(results)
+if results:
+    for result in results:
+        print(result[1])
+
+else:
+    print("Word Not Found.")
